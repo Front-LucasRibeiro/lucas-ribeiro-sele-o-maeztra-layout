@@ -4,15 +4,270 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="./style.css">
+  <title>Maeztra</title>
+
+  <!-- start fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <!-- end fonts -->
+
+  <!-- start libs  -->
+  <link rel="stylesheet" type="text/css" href="layout/css/slick.css" />
+  <!-- end libs  -->
+
+  <!-- start styles  -->
+  <link rel="stylesheet" href="./layout/css/styles.css">
+  <!-- end styles  -->
 </head>
 
-<body>
+<body class="home">
 
-  <h2>Teste</h2>
+  <header>
+    <div class="top-bar">
+      <p>Acompanhe as melhores promoções disponíveis aqui na Maeztra.</p>
+    </div>
+
+    <div class="box-full">
+      <div class="wrapper-content middle row">
+
+        <a href="https://maeztra.com/" target="_blank">
+          <div class="logo">
+            <h1>Maeztra</h1>
+          </div>
+        </a>
+
+        <div class="search">
+          <div class="box-wrapper">
+            <input type="text" placeholder="O que Você Busca?" />
+            <button type="submit" class="buscar">Buscar</button>
+          </div>
+        </div>
+
+        <div class="box-conta">
+          <ul>
+            <li class="minha-conta">
+              <span class="icon-conta"></span>
+              Minha Conta
+            </li>
+            <li class="favoritar-conta">
+              <span class="icon-favoritar"></span>
+              Minha Conta
+            </li>
+            <li class="meu-carrinho">
+              <span class="icon-carrinho"></span>
+              Meu Carrinho
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrapper-content">
+      <nav>
+        <ul class="menu-list">
+          <li class="novidades">
+            <span class="icon"></span>
+            Novidades
+          </li>
+          <li>
+            Vestidos
+          </li>
+          <li>
+            Roupas
+          </li>
+          <li>
+            Sapatos
+          </li>
+          <li>
+            Lingerie
+          </li>
+          <li>
+            Acessórios
+          </li>
+          <li class="outlet">
+            Outlet
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="banner-full">
+    <ul class="slider-banner-full">
+      <li>
+        <img src="./layout/img/banner-promocoes-outono.png" alt="Promoções de Outono" />
+        <div class="box-text">
+          <h2>Promoções de Outono</h2>
+          <p>Confiras os melhores looks para combinar com você nesse Outono</p>
+          <a href="#" class="button">Conferir</a>
+        </div>
+      </li>
+      <li>
+        <img src="./layout/img/banner-promocoes-outono.png" alt="Promoções de Outono" />
+        <div class="box-text">
+          <h2>Promoções de Outono</h2>
+          <p>Confiras os melhores looks para combinar com você nesse Outono</p>
+          <a href="#" class="button">Conferir</a>
+        </div>
+      </li>
+      <li>
+        <img src="./layout/img/banner-promocoes-outono.png" alt="Promoções de Outono" />
+        <div class="box-text">
+          <h2>Promoções de Outono</h2>
+          <p>Confiras os melhores looks para combinar com você nesse Outono</p>
+          <a href="#" class="button">Conferir</a>
+        </div>
+      </li>
+      <li>
+        <img src="./layout/img/banner-promocoes-outono.png" alt="Promoções de Outono" />
+        <div class="box-text">
+          <h2>Promoções de Outono</h2>
+          <p>Confiras os melhores looks para combinar com você nesse Outono</p>
+          <a href="#" class="button">Conferir</a>
+        </div>
+      </li>
+      <li>
+        <img src="./layout/img/banner-promocoes-outono.png" alt="Promoções de Outono" />
+        <div class="box-text">
+          <h2>Promoções de Outono</h2>
+          <p>Confiras os melhores looks para combinar com você nesse Outono</p>
+          <a href="#" class="button">Conferir</a>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <div class="wrapper-content">
+    <section class="beneficios">
+      <h4>Por que comprar na Maeztra?</h4>
+  
+      <ul class="slick-beneficios">
+        <li class="produtos-importados">
+          <span class="icon"></span>
+          <div class="box-text">
+            <p>
+              <strong>
+                Produtos importados
+              </strong>
+            </p>
+            <p>Produto de Alta Qualidade</p>
+          </div>
+        </li>
+        <li class="estoque">
+          <span class="icon"></span>
+          <div class="box-text">
+            <p>
+              <strong>
+                Estoque no Brazil
+              </strong>
+            </p>
+            <p>Produtos mais perto de você!</p>
+          </div>
+        </li>
+        <li class="trocas">
+          <span class="icon"></span>
+          <div class="box-text">
+            <p>
+              <strong>
+                Trocas Garantidas
+              </strong>
+            </p>
+            <p>Trocas em até 48 horas, vejas as regras</p>
+          </div>
+        </li>
+        <li class="desconto">
+          <span class="icon"></span>
+          <div class="box-text">
+            <p>
+              <strong>
+                Ganhe 5% off
+              </strong>
+            </p>
+            <p>Pagando à vista no Cartão</p>
+          </div>
+        </li>
+        <li class="frete">
+          <span class="icon"></span>
+          <div class="box-text">
+            <p>
+              <strong>
+                Frete Grátis
+              </strong>
+            </p>
+            <p>Em compras acima de R$ 499,00</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </div>
+
+  <div class="wrapper-content">
+    <section class="marcas">
+      <h4>Marcas Parceiras</h4>
+  
+      <ul class="slick-marcas">
+        <li>
+          <img src="./layout/img/comma.png" alt="Comma" />
+        </li>
+        <li>
+          <img src="./layout/img/melissa.png" alt="Melissa" />
+        </li>
+        <li>
+          <img src="./layout/img/forever-21.png" alt="Forever 21" />
+        </li>
+        <li>
+          <img src="./layout/img/zara.png" alt="Zara" />
+        </li>
+        <li>
+          <img src="./layout/img/ann-taylor.png" alt="Ann Taylor" />
+        </li>
+      </ul>
+    </section>
+  </div>
+
+  <div class="wrapper-content">
+    <section class="as-mais-pedidas">
+      <h4>As Mais Pedidas</h4>
+  
+      <ul class="slick-shelfs">
+        <li>
+          <div class="box-image">
+            <img src="" alt="" />
+          </div>
+
+          <div class="box-cores">
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+
+          <div class="box-price">
+            R$ 500,00
+          </div>
+
+          <div class="box-nome">
+            Faux Suede Mini Skirt
+          </div>
+
+          <div class="box-descricao">
+            A faux suede mini skirt featuring exposed button-front closures and panel seam construction.
+          </div>
+
+          <a href="#" class="button-add">Adicionar</a>
+        </li>
+      </ul>
+    </section>
+  </div>
 
 
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="layout/js/slick.min.js"></script>
+  <script src="layout/js/scripts.js"></script>
 </body>
 
 </html>

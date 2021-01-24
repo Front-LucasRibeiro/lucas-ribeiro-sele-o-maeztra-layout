@@ -1,0 +1,78 @@
+* {
+  font-family: $Titillium;
+}
+
+.wrapper-content {
+  width: 1600px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+.slick-dots {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  right: 0;
+  margin-bottom: 24px;
+
+  li {
+    button {
+      width: 16px;
+      height: 16px;
+      border-radius: 100%;
+      border: 0;
+      font-size: 0;
+      margin-right: 16px;
+      border: 2px solid $orange;
+      background-color: transparent;
+    }
+
+    &.slick-active {
+      button {
+        background-color: $orange;
+      }
+    }
+  }
+}
+
+.slick-arrow {
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  font-size: 0;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+.slick-next {
+  right: 8%;
+  background-image: url($arrowSlick);
+  width: 20px;
+  height: 32px;
+  transform: rotate(180deg);
+}
+
+.slick-prev {
+  left: 8%;
+  background-image: url($arrowSlick);
+  width: 20px;
+  height: 32px;
+}
+
+::-webkit-input-placeholder {
+  color: $brow;
+}
+::-moz-placeholder {
+  color: $brow;
+}

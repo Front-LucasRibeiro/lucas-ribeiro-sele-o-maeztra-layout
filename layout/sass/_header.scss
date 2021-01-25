@@ -19,6 +19,13 @@ header {
   }
 
   .menu-mobile {
+    display: none;
+
+    @media(max-width: 991px){
+      display: block;
+    }
+
+
     .icon-menu-mobile {
       background-image: url($iconMenuMobile);
       width: 32px;

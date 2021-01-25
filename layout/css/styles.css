@@ -131,11 +131,16 @@ header .top-bar {
     @media (max-width: 390px) {
       header .top-bar p {
         font-size: 10px; } }
-header .menu-mobile .icon-menu-mobile {
-  background-image: url("data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M27.0625 15.0625H4.9375C4.41972 15.0625 4 15.4822 4 16C4 16.5178 4.41972 16.9375 4.9375 16.9375H27.0625C27.5803 16.9375 28 16.5178 28 16C28 15.4822 27.5803 15.0625 27.0625 15.0625Z' fill='black'/%3E%3Cpath d='M27.0625 7.5625H4.9375C4.41972 7.5625 4 7.98222 4 8.5C4 9.01778 4.41972 9.4375 4.9375 9.4375H27.0625C27.5803 9.4375 28 9.01778 28 8.5C28 7.98222 27.5803 7.5625 27.0625 7.5625Z' fill='black'/%3E%3Cpath d='M27.0625 22.5625H4.9375C4.41972 22.5625 4 22.9822 4 23.5C4 24.0178 4.41972 24.4375 4.9375 24.4375H27.0625C27.5803 24.4375 28 24.0178 28 23.5C28 22.9822 27.5803 22.5625 27.0625 22.5625Z' fill='black'/%3E%3C/svg%3E%0A");
-  width: 32px;
-  height: 32px;
-  margin-right: 15px; }
+header .menu-mobile {
+  display: none; }
+  @media (max-width: 991px) {
+    header .menu-mobile {
+      display: block; } }
+  header .menu-mobile .icon-menu-mobile {
+    background-image: url("data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M27.0625 15.0625H4.9375C4.41972 15.0625 4 15.4822 4 16C4 16.5178 4.41972 16.9375 4.9375 16.9375H27.0625C27.5803 16.9375 28 16.5178 28 16C28 15.4822 27.5803 15.0625 27.0625 15.0625Z' fill='black'/%3E%3Cpath d='M27.0625 7.5625H4.9375C4.41972 7.5625 4 7.98222 4 8.5C4 9.01778 4.41972 9.4375 4.9375 9.4375H27.0625C27.5803 9.4375 28 9.01778 28 8.5C28 7.98222 27.5803 7.5625 27.0625 7.5625Z' fill='black'/%3E%3Cpath d='M27.0625 22.5625H4.9375C4.41972 22.5625 4 22.9822 4 23.5C4 24.0178 4.41972 24.4375 4.9375 24.4375H27.0625C27.5803 24.4375 28 24.0178 28 23.5C28 22.9822 27.5803 22.5625 27.0625 22.5625Z' fill='black'/%3E%3C/svg%3E%0A");
+    width: 32px;
+    height: 32px;
+    margin-right: 15px; }
 header .box-conta-mobile {
   position: absolute;
   right: 21px; }
